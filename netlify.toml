@@ -1,0 +1,3 @@
+[build]
+  # Directory to publish (since it's a static site, it's the root directory)
+  publish = "."

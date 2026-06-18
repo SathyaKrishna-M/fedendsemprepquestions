@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exam Preparation Website - Set-wise Questions and Answers">
+    <title>Exam Prep Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- PrismJS Light Theme -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="glass-header">
+            <h1>Exam Prep Portal</h1>
+            <p>Master your subjects with curated question sets and detailed answers.</p>
+        </header>
+
+        <main class="main-content">
+            <aside class="sidebar glass-panel">
+                <h2>Question Sets</h2>
+                <ul id="set-list" class="set-list">
+                    <!-- Set list populated dynamically -->
+                </ul>
+            </aside>
+
+            <section class="content-area glass-panel">
+                <div id="content-header" class="content-header">
+                    <h2 id="current-set-title">Select a Set</h2>
+                </div>
+                <div id="questions-container" class="questions-container">
+                    <div class="placeholder">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        <p>Choose a question set from the sidebar to view questions and answers.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Exam Prep Portal. Built with &hearts; for students.</p>
+        </footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <!-- PrismJS Core and JSX syntax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-jsx.min.js"></script>
+</body>
+
+</html>
